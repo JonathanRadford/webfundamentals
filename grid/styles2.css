@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+#grid-container{
+  display: grid;
+  width: 100%;
+  border: 10px solid rgb(0, 153, 255);
+  grid-template-areas: 
+  "header header header header header header"
+  "menu   main   main   main   right right"
+  "menu footer footer footer footer footer";
+}
+
+.grid-item{
+  border: 10px solid rgb(0, 153, 255);
+}
+
+header{
+  grid-area: header;
+}
+
+nav{
+  grid-area: menu;
+}
+
+main{
+  grid-area: main;
+}
+
+aside{
+grid-area: right;
+}
+
+footer{
+  grid-area: footer;
+}

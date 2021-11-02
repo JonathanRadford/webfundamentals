@@ -1,0 +1,17 @@
+@import "_variables";
+
+
+.nav{
+  background-color: $primary-colors;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  padding: 10px 20px 20px 20px;
+
+  > .nav__header {
+    color: $text-color;
+    font-size: 3rem;
+  }
+}
